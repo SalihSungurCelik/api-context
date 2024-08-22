@@ -11,7 +11,7 @@ export const MainPage = () => {
       .get("https://fakestoreapi.com/products")
       .then((res) => setProducts(res.data));
   }, []);
-  console.log(products);
+  // console.log(products);
   return (
     <div className="my-5 container d-flex flex-wrap justify-content-center justify-content-md-between gap-5">
         {/* ürünler varsa her bir ürün için ekrana kart bas yoksa loading */}
